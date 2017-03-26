@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	overflow: none;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Roboto";
+	background-color: rgb(249, 248, 247);
+}
+
+div {
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: middle;
+}
+
+div#top-left {
+	width: 50%;
+	min-height: 60%;
+}
+
+div#top-right {
+	width: 50%;
+	min-height: 60%;
+	padding: 5% 8%;
+}
+
+div#bottom {
+	width: 100%;
+	min-height: 40%;
+	padding: 3% 20%;
+
+}
+
+div#bottom-left {
+	width: 50%;
+	vertical-align: top;
+}
+
+div#bottom-right {
+	width: 30%;
+	margin-left: 20%;
+	vertical-align: top;
+}
